@@ -80,7 +80,7 @@ def main():
     button = tk.Button(frame, text="Get Weather", command=display_weather, font=('Helvetica', 16), bg='#007BFF', fg='white', relief=tk.RAISED, width=15, height=2)
     button.pack(pady=20)
 
-    root.iconbitmap('icon.ico')
+    root.iconbitmap('ClearCast.ico')
 
     root.mainloop()
 
